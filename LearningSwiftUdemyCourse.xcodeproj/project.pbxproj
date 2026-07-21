@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E28497EF300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningSwiftUdemyCourse; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28497EF300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = LearningSwiftUdemyCourse; path = /Users/cuauhtemocguardian/Documents/IOSUdemyCourse/LearningSwiftUdemyCourse/build/Debug/LearningSwiftUdemyCourse; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				E28497F1300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */,
-				E28497F0300E8B7A00CA5A9D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E28497F0300E8B7A00CA5A9D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E28497EF300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +98,7 @@
 			mainGroup = E28497E6300E8B7A00CA5A9D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E28497F0300E8B7A00CA5A9D /* Products */;
+			productRefGroup = E28497E6300E8B7A00CA5A9D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -250,9 +241,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,9 +255,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
