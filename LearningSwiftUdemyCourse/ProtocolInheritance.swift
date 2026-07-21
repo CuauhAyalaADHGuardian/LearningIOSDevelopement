@@ -4,7 +4,7 @@
 //
 //  Created by Cuauhtemoc on 20/07/26.
 //
-
+/*
 protocol Animal {
     var name: String {get}
     func makeSound()
@@ -31,3 +31,4 @@ class Bird: CanFly {
         <#code#>
     }
 }
+*/

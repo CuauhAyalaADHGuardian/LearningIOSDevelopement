@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E28497EF300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = LearningSwiftUdemyCourse; path = /Users/cuauhtemocguardian/Documents/IOSUdemyCourse/LearningSwiftUdemyCourse/build/Debug/LearningSwiftUdemyCourse; sourceTree = "<absolute>"; };
+		E2113C0B30102108001E69BB /* LearningSwiftUdemyCourse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningSwiftUdemyCourse; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				E28497F1300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */,
+				E2113C0B30102108001E69BB /* LearningSwiftUdemyCourse */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 			packageProductDependencies = (
 			);
 			productName = LearningSwiftUdemyCourse;
-			productReference = E28497EF300E8B7A00CA5A9D /* LearningSwiftUdemyCourse */;
+			productReference = E2113C0B30102108001E69BB /* LearningSwiftUdemyCourse */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
